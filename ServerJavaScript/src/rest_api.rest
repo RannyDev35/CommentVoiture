@@ -1,0 +1,28 @@
+###
+POST http://localhost:2222/register
+Content-Type: application/json
+
+{
+    "email":"annyzo35@gmail.com",
+    "password":1234,
+    "nom":"soa"
+}
+###
+POST http://localhost:2222/create-voiture
+Content-Type: application/json
+
+{
+    "marque":"Renault",
+    "model":"TOY",
+    "numero": "56652 ATBH"
+}
+
+###
+PUT  http://localhost:2222/comment-voiture/60ec5dc7908da30a60c40903/60ec990ef3194d189850647c
+Content-Type: application/json
+{
+    "uncommentaire": "salam va",
+}
+
+###
+GET  http://localhost:2222/all-voitures
