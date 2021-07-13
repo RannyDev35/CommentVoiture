@@ -9,8 +9,8 @@ Chaque utilisateur peut commenter une voiture.
 L'utilisateur non connecté peut voir la liste mais pas les commentaires.
 On ne doit pouvoir accéder aux commentaires seulement si on est connecté.
 
-Les technos à utiliser : Back-end: NodeJS
-Front : React et Bootstrap
+Les technos à utiliser : -Back-end: NodeJS
+                         -Front-end : React et Bootstrap
 
 ## Condition prealable
 
